@@ -16,3 +16,9 @@ enabled=0
 gpgkey=https://nginx.org/keys/nginx_signing.key
 module_hotfixes=true
 
+yum install -y gcc gcc-c++ autoconf automake libtool make zlib zlib-devel openssl openssl-devel pcre* pcre-devle cmke ncurses-devel
+
+yum -y install gcc gcc-c++ libxml2-devel openssl-devel curl-devel libjpeg-devel libpng-devel libicu-devel freetype-devel openldap-devel openldap 
+openldap-devel php-pear sqlite-devel
+
+yum -y install php72w php72w-devel php72w-fpm php72w-gd php72w-mbstring php72w-mysql
